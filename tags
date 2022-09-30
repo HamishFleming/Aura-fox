@@ -1,0 +1,435 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/hamish/.local/share/nvim/site/pack/packer/start/nightfox.nvim/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/2d0dda9f/
+$(pandocdir)	Makefile	/^$(pandocdir):$/;"	t
+:NightfoxClean	usage.md	/^#### :NightfoxClean$/;"	t	subsection:Compile""Compile commands
+:NightfoxCompile	usage.md	/^#### :NightfoxCompile$/;"	t	subsection:Compile""Compile commands
+:NightfoxInteractive	usage.md	/^#### :NightfoxInteractive$/;"	t	section:Interactive
+Acknowledgements	readme.md	/^## Acknowledgements$/;"	s
+Additional info / context	.github/ISSUE_TEMPLATE/bug_report.md	/^## Additional info \/ context$/;"	s
+Api	readme.md	/^## Api$/;"	s
+Behavior	.github/ISSUE_TEMPLATE/bug_report.md	/^## Behavior$/;"	s
+Changes	readme.md	/^### Changes$/;"	S	section:Notice ℹ️
+Color	usage.md	/^## Color$/;"	s
+Color lib	readme.md	/^### Color lib$/;"	S	section:Api
+Compile	readme.md	/^## Compile$/;"	s
+Compile	usage.md	/^## Compile$/;"	s
+Compile commands	usage.md	/^### Compile commands$/;"	S	section:Compile
+Configuration	.github/ISSUE_TEMPLATE/bug_report.md	/^## Configuration$/;"	s
+Configuration	readme.md	/^## Configuration$/;"	s
+Configuration	usage.md	/^## Configuration$/;"	s
+Contributing	contributing.md	/^# Contributing$/;"	c
+Custom template values	readme.md	/^### Custom template values$/;"	S	section:Configuration
+Customize palettes and groups	readme.md	/^### Customize palettes and groups$/;"	S	section:Configuration
+Description	.github/ISSUE_TEMPLATE/bug_report.md	/^## Description$/;"	s
+Extended modules	usage.md	/^### Extended modules$/;"	S	section:Module
+Extra	readme.md	/^## Extra$/;"	s
+Features	readme.md	/^## Features$/;"	s
+Function	lua/nightfox/group/syntax.lua	/^    Function       = { fg = syn.func, style = stl.functions }, -- function name (also: methods f/;"	f
+Group	usage.md	/^## Group$/;"	s
+Guidelines	contributing.md	/^## Guidelines$/;"	s	chapter:Contributing
+Init	usage.md	/^### Init$/;"	S	section:Configuration
+Installation	readme.md	/^## Installation$/;"	s
+Interactive	readme.md	/^## Interactive$/;"	s
+Interactive	usage.md	/^## Interactive$/;"	s
+License	contributing.md	/^## License$/;"	s	chapter:Contributing
+Module	usage.md	/^## Module$/;"	s
+Modules	readme.md	/^### Modules$/;"	S	section:Configuration
+NightfoxClean	plugin/nightfox.vim	/^command! NightfoxClean lua require('nightfox').clean()$/;"	c
+NightfoxCompile	plugin/nightfox.vim	/^command! NightfoxCompile lua require('nightfox').compile()$/;"	c
+NightfoxInteractive	plugin/nightfox.vim	/^command! NightfoxInteractive lua require('nightfox.interactive').attach()$/;"	c
+NightfoxStatus	plugin/nightfox.vim	/^command! NightfoxStatus lua require('nightfox').status()$/;"	c
+Notice ℹ️	readme.md	/^## Notice ℹ️$/;"	s
+Option	usage.md	/^## Option$/;"	s
+Overrides	usage.md	/^### Overrides$/;"	S	section:Configuration
+Overview	usage.md	/^## Overview$/;"	s
+Palette	usage.md	/^## Palette$/;"	s
+Palettes	readme.md	/^### Palettes$/;"	S	section:Api
+Recommendations	contributing.md	/^## Recommendations$/;"	s	chapter:Contributing
+References	readme.md	/^## References$/;"	s
+Requirements	readme.md	/^## Requirements$/;"	s
+Setup	usage.md	/^### Setup$/;"	S	section:Configuration
+Shade	usage.md	/^## Shade$/;"	s
+Spec	usage.md	/^## Spec$/;"	s
+Specs	readme.md	/^### Specs$/;"	S	section:Api
+Status lines	readme.md	/^## Status lines$/;"	s
+Supported Plugins	readme.md	/^## Supported Plugins$/;"	s
+Syntax highlight groups	readme.md	/^## Syntax highlight groups$/;"	s
+TSFuncBuiltin	lua/nightfox/group/modules/treesitter.lua	/^    TSFuncBuiltin        = { fg = syn.builtin0, style = stl.functions }, -- Built-in functions: /;"	f
+TSFuncMacro	lua/nightfox/group/modules/treesitter.lua	/^    TSFuncMacro          = { fg = syn.builtin0, style = stl.functions }, -- Macro defined functi/;"	f
+TSKeywordFunction	lua/nightfox/group/modules/treesitter.lua	/^    TSKeywordFunction    = { fg = syn.builtin0, style = stl.functions }, -- Keywords used to def/;"	f
+Templates	usage.md	/^## Templates$/;"	s
+Treesitter highlighting	readme.md	/^#### Treesitter highlighting$/;"	t	section:Syntax highlight groups
+Usage	readme.md	/^## Usage$/;"	s
+Usage	usage.md	/^## Usage$/;"	s
+Vim highlighting	readme.md	/^#### Vim highlighting$/;"	t	section:Syntax highlight groups
+[Lightline]	readme.md	/^### [Lightline]$/;"	S	section:Status lines
+[Lualine]	readme.md	/^### [Lualine]$/;"	S	section:Status lines
+__call	lua/nightfox/lib/color.lua	/^function mt.__call(_, opts)$/;"	f	unknown:mt
+__call	lua/nightfox/lib/shade.lua	/^Shade.__call = function(self)$/;"	f	unknown:Shade
+__call	lua/nightfox/util/reload.lua	/^  __call = function(_)$/;"	f
+__index	lua/nightfox/override.lua	/^  __index = function(_, value)$/;"	f
+__newindex	lua/nightfox/override.lua	/^  __newindex = function(_, key, value)$/;"	f
+__tostring	lua/nightfox/lib/color.lua	/^function Color.__tostring(self)$/;"	f	unknown:Color
+all	Makefile	/^all: compile extragen docgen$/;"	t
+apply_ovr	lua/nightfox/group.lua	/^  local function apply_ovr(key, groups)$/;"	f
+apply_ovr	lua/nightfox/palette.lua	/^  local function apply_ovr(key, palette)$/;"	f
+apply_ovr	lua/nightfox/spec.lua	/^  local function apply_ovr(key, spec, palette)$/;"	f
+attach	lua/nightfox/interactive.lua	/^function M.attach()$/;"	f	unknown:M
+background	extra/dawnfox/nightfox_windows_terminal.json	/^    "background" : "#faf4ed",$/;"	s
+background	extra/dayfox/nightfox_windows_terminal.json	/^    "background" : "#eaeaea",$/;"	s
+background	extra/duskfox/nightfox_windows_terminal.json	/^    "background" : "#232136",$/;"	s
+background	extra/nightfox/nightfox_windows_terminal.json	/^    "background" : "#192330",$/;"	s
+background	extra/nordfox/nightfox_windows_terminal.json	/^    "background" : "#2e3440",$/;"	s
+background	extra/terafox/nightfox_windows_terminal.json	/^    "background" : "#152528",$/;"	s
+black	extra/dawnfox/nightfox_windows_terminal.json	/^    "black" : "#575279",$/;"	s
+black	extra/dayfox/nightfox_windows_terminal.json	/^    "black" : "#1d344f",$/;"	s
+black	extra/duskfox/nightfox_windows_terminal.json	/^    "black" : "#393552",$/;"	s
+black	extra/nightfox/nightfox_windows_terminal.json	/^    "black" : "#393b44",$/;"	s
+black	extra/nordfox/nightfox_windows_terminal.json	/^    "black" : "#3b4252",$/;"	s
+black	extra/terafox/nightfox_windows_terminal.json	/^    "black" : "#2f3239",$/;"	s
+blend	lua/nightfox/lib/color.lua	/^function Color:blend(other, f)$/;"	f	unknown:Color
+blue	extra/dawnfox/nightfox_windows_terminal.json	/^    "blue" : "#286983",$/;"	s
+blue	extra/dayfox/nightfox_windows_terminal.json	/^    "blue" : "#4d688e",$/;"	s
+blue	extra/duskfox/nightfox_windows_terminal.json	/^    "blue" : "#569fba",$/;"	s
+blue	extra/nightfox/nightfox_windows_terminal.json	/^    "blue" : "#719cd6",$/;"	s
+blue	extra/nordfox/nightfox_windows_terminal.json	/^    "blue" : "#81a1c1",$/;"	s
+blue	extra/terafox/nightfox_windows_terminal.json	/^    "blue" : "#5a93aa",$/;"	s
+border	lua/nightfox/group/modules/notify.lua	/^  local function border(color, amount)$/;"	f
+brightBlack	extra/dawnfox/nightfox_windows_terminal.json	/^    "brightBlack" : "#5f5695",$/;"	s
+brightBlack	extra/dayfox/nightfox_windows_terminal.json	/^    "brightBlack" : "#24476f",$/;"	s
+brightBlack	extra/duskfox/nightfox_windows_terminal.json	/^    "brightBlack" : "#47407d",$/;"	s
+brightBlack	extra/nightfox/nightfox_windows_terminal.json	/^    "brightBlack" : "#575860",$/;"	s
+brightBlack	extra/nordfox/nightfox_windows_terminal.json	/^    "brightBlack" : "#465780",$/;"	s
+brightBlack	extra/terafox/nightfox_windows_terminal.json	/^    "brightBlack" : "#4e5157",$/;"	s
+brightBlue	extra/dawnfox/nightfox_windows_terminal.json	/^    "brightBlue" : "#2d81a3",$/;"	s
+brightBlue	extra/dayfox/nightfox_windows_terminal.json	/^    "brightBlue" : "#4e75aa",$/;"	s
+brightBlue	extra/duskfox/nightfox_windows_terminal.json	/^    "brightBlue" : "#65b1cd",$/;"	s
+brightBlue	extra/nightfox/nightfox_windows_terminal.json	/^    "brightBlue" : "#86abdc",$/;"	s
+brightBlue	extra/nordfox/nightfox_windows_terminal.json	/^    "brightBlue" : "#8cafd2",$/;"	s
+brightBlue	extra/terafox/nightfox_windows_terminal.json	/^    "brightBlue" : "#73a3b7",$/;"	s
+brightCyan	extra/dawnfox/nightfox_windows_terminal.json	/^    "brightCyan" : "#5ca7b4",$/;"	s
+brightCyan	extra/dayfox/nightfox_windows_terminal.json	/^    "brightCyan" : "#74b2c9",$/;"	s
+brightCyan	extra/duskfox/nightfox_windows_terminal.json	/^    "brightCyan" : "#a6dae3",$/;"	s
+brightCyan	extra/nightfox/nightfox_windows_terminal.json	/^    "brightCyan" : "#7ad4d6",$/;"	s
+brightCyan	extra/nordfox/nightfox_windows_terminal.json	/^    "brightCyan" : "#93ccdc",$/;"	s
+brightCyan	extra/terafox/nightfox_windows_terminal.json	/^    "brightCyan" : "#afd4de",$/;"	s
+brightGreen	extra/dawnfox/nightfox_windows_terminal.json	/^    "brightGreen" : "#629f81",$/;"	s
+brightGreen	extra/dayfox/nightfox_windows_terminal.json	/^    "brightGreen" : "#629f81",$/;"	s
+brightGreen	extra/duskfox/nightfox_windows_terminal.json	/^    "brightGreen" : "#b1d196",$/;"	s
+brightGreen	extra/nightfox/nightfox_windows_terminal.json	/^    "brightGreen" : "#8ebaa4",$/;"	s
+brightGreen	extra/nordfox/nightfox_windows_terminal.json	/^    "brightGreen" : "#b1d196",$/;"	s
+brightGreen	extra/terafox/nightfox_windows_terminal.json	/^    "brightGreen" : "#8eb2af",$/;"	s
+brightPurple	extra/dawnfox/nightfox_windows_terminal.json	/^    "brightPurple" : "#9a80b9",$/;"	s
+brightPurple	extra/dayfox/nightfox_windows_terminal.json	/^    "brightPurple" : "#9f75ac",$/;"	s
+brightPurple	extra/duskfox/nightfox_windows_terminal.json	/^    "brightPurple" : "#ccb1ed",$/;"	s
+brightPurple	extra/nightfox/nightfox_windows_terminal.json	/^    "brightPurple" : "#baa1e2",$/;"	s
+brightPurple	extra/nordfox/nightfox_windows_terminal.json	/^    "brightPurple" : "#c895bf",$/;"	s
+brightPurple	extra/terafox/nightfox_windows_terminal.json	/^    "brightPurple" : "#b97490",$/;"	s
+brightRed	extra/dawnfox/nightfox_windows_terminal.json	/^    "brightRed" : "#c26d85",$/;"	s
+brightRed	extra/dayfox/nightfox_windows_terminal.json	/^    "brightRed" : "#c76882",$/;"	s
+brightRed	extra/duskfox/nightfox_windows_terminal.json	/^    "brightRed" : "#f083a2",$/;"	s
+brightRed	extra/nightfox/nightfox_windows_terminal.json	/^    "brightRed" : "#d16983",$/;"	s
+brightRed	extra/nordfox/nightfox_windows_terminal.json	/^    "brightRed" : "#d06f79",$/;"	s
+brightRed	extra/terafox/nightfox_windows_terminal.json	/^    "brightRed" : "#eb746b",$/;"	s
+brightWhite	extra/dawnfox/nightfox_windows_terminal.json	/^    "brightWhite" : "#e6ebf3",$/;"	s
+brightWhite	extra/dayfox/nightfox_windows_terminal.json	/^    "brightWhite" : "#cfd6dd",$/;"	s
+brightWhite	extra/duskfox/nightfox_windows_terminal.json	/^    "brightWhite" : "#e2e0f7",$/;"	s
+brightWhite	extra/nightfox/nightfox_windows_terminal.json	/^    "brightWhite" : "#e4e4e5",$/;"	s
+brightWhite	extra/nordfox/nightfox_windows_terminal.json	/^    "brightWhite" : "#e7ecf4",$/;"	s
+brightWhite	extra/terafox/nightfox_windows_terminal.json	/^    "brightWhite" : "#eeeeee",$/;"	s
+brightYellow	extra/dawnfox/nightfox_windows_terminal.json	/^    "brightYellow" : "#eea846"$/;"	s
+brightYellow	extra/dayfox/nightfox_windows_terminal.json	/^    "brightYellow" : "#ca884a"$/;"	s
+brightYellow	extra/duskfox/nightfox_windows_terminal.json	/^    "brightYellow" : "#f9cb8c"$/;"	s
+brightYellow	extra/nightfox/nightfox_windows_terminal.json	/^    "brightYellow" : "#e0c989"$/;"	s
+brightYellow	extra/nordfox/nightfox_windows_terminal.json	/^    "brightYellow" : "#f0d399"$/;"	s
+brightYellow	extra/terafox/nightfox_windows_terminal.json	/^    "brightYellow" : "#fdb292"$/;"	s
+brighten	lua/nightfox/lib/color.lua	/^function Color:brighten(v)$/;"	f	unknown:Color
+calc_hue	lua/nightfox/lib/color.lua	/^local function calc_hue(r, g, b)$/;"	f
+check_deprication	lua/nightfox/util/deprication.lua	/^function M.check_deprication(opts)$/;"	f	unknown:M
+check_link	lua/nightfox/override.lua	/^local function check_link(tbl)$/;"	f
+check_opt	lua/nightfox/util/deprication.lua	/^  local function check_opt(name, o)$/;"	f
+clamp	lua/nightfox/util/init.lua	/^function M.clamp(value, min, max)$/;"	f	unknown:M
+clean	lua/nightfox/init.lua	/^function M.clean()$/;"	f	unknown:M
+clean	lua/nightfox/lib/compile.lua	/^function M.clean()$/;"	f	unknown:M
+clean()	usage.md	/^#### clean()$/;"	t	subsection:Compile""Compile commands
+clear_hl	lua/nightfox/main.lua	/^local function clear_hl()$/;"	f
+color.from_hex({hex})	usage.md	/^#### color.from_hex({hex})$/;"	t	section:Color
+color.from_hsl({hue}, {sat}, {lightness}, {alpha})	usage.md	/^#### color.from_hsl({hue}, {sat}, {lightness}, {alpha})$/;"	t	section:Color
+color.from_hsv({hue}, {sat}, {value}, {alpha})	usage.md	/^#### color.from_hsv({hue}, {sat}, {value}, {alpha})$/;"	t	section:Color
+color.from_rgba({red}, {green}, {blue}, {alpha})	usage.md	/^#### color.from_rgba({red}, {green}, {blue}, {alpha})$/;"	t	section:Color
+color:blend({other}, {factor})	usage.md	/^#### color:blend({other}, {factor})$/;"	t	section:Color
+color:brighten({value})	usage.md	/^#### color:brighten({value})$/;"	t	section:Color
+color:lighten({value})	usage.md	/^#### color:lighten({value})$/;"	t	section:Color
+color:rotate({value})	usage.md	/^#### color:rotate({value})$/;"	t	section:Color
+color:saturate({value})	usage.md	/^#### color:saturate({value})$/;"	t	section:Color
+color:shade({factor})	usage.md	/^#### color:shade({factor})$/;"	t	section:Color
+color:to_css({with_alpha})	usage.md	/^#### color:to_css({with_alpha})$/;"	t	section:Color
+color:to_hex({with_alpha})	usage.md	/^#### color:to_hex({with_alpha})$/;"	t	section:Color
+color:to_hsl()	usage.md	/^#### color:to_hsl()$/;"	t	section:Color
+color:to_hsv()	usage.md	/^#### color:to_hsv()$/;"	t	section:Color
+color:to_rgba()	usage.md	/^#### color:to_rgba()$/;"	t	section:Color
+compile	Makefile	/^compile:$/;"	t
+compile	lua/nightfox/init.lua	/^function M.compile()$/;"	f	unknown:M
+compile	lua/nightfox/lib/compile.lua	/^function M.compile(opts)$/;"	f	unknown:M
+compile()	usage.md	/^#### compile()$/;"	t	subsection:Compile""Compile commands
+compile_file_suffix {suffix}	usage.md	/^#### compile_file_suffix {suffix}$/;"	t	section:Option
+compile_path {path}	usage.md	/^#### compile_path {path}$/;"	t	section:Option
+construct	lua/nightfox/extra/alacritty.lua	/^local function construct(shade)$/;"	f
+construct	lua/nightfox/extra/fish.lua	/^local function construct(shade)$/;"	f
+contains	lua/nightfox/lib/collect.lua	/^function M.contains(t, value)$/;"	f	unknown:M
+conv	lua/nightfox/extra/alacritty.lua	/^local function conv(color)$/;"	f
+conv	lua/nightfox/extra/fish.lua	/^local function conv(color)$/;"	f
+conv	lua/nightfox/extra/iterm.lua	/^local function conv(color)$/;"	f
+conv	lua/nightfox/extra/konsole.lua	/^local function conv(color)$/;"	f
+conv_shade	lua/nightfox/extra/konsole.lua	/^local function conv_shade(shade)$/;"	f
+cursorColor	extra/dawnfox/nightfox_windows_terminal.json	/^    "cursorColor": "#575279",$/;"	s
+cursorColor	extra/dayfox/nightfox_windows_terminal.json	/^    "cursorColor": "#1d344f",$/;"	s
+cursorColor	extra/duskfox/nightfox_windows_terminal.json	/^    "cursorColor": "#e0def4",$/;"	s
+cursorColor	extra/nightfox/nightfox_windows_terminal.json	/^    "cursorColor": "#cdcecf",$/;"	s
+cursorColor	extra/nordfox/nightfox_windows_terminal.json	/^    "cursorColor": "#cdcecf",$/;"	s
+cursorColor	extra/terafox/nightfox_windows_terminal.json	/^    "cursorColor": "#e6eaea",$/;"	s
+cyan	extra/dawnfox/nightfox_windows_terminal.json	/^    "cyan" : "#56949f",$/;"	s
+cyan	extra/dayfox/nightfox_windows_terminal.json	/^    "cyan" : "#6ca7bd",$/;"	s
+cyan	extra/duskfox/nightfox_windows_terminal.json	/^    "cyan" : "#9ccfd8",$/;"	s
+cyan	extra/nightfox/nightfox_windows_terminal.json	/^    "cyan" : "#63cdcf",$/;"	s
+cyan	extra/nordfox/nightfox_windows_terminal.json	/^    "cyan" : "#88c0d0",$/;"	s
+cyan	extra/terafox/nightfox_windows_terminal.json	/^    "cyan" : "#a1cdd8",$/;"	s
+deep_copy	lua/nightfox/lib/collect.lua	/^function M.deep_copy(obj, seen)$/;"	f	unknown:M
+deep_extend	lua/nightfox/lib/collect.lua	/^function M.deep_extend(...)$/;"	f	unknown:M
+dim_inactive {bool}	usage.md	/^#### dim_inactive {bool}$/;"	t	section:Option
+docgen	Makefile	/^docgen: | $(pandocdir)$/;"	t
+dump	lua/nightfox/util/lightline.lua	/^function M.dump(name)$/;"	f	unknown:M
+each	lua/nightfox/lib/collect.lua	/^function M.each(tbl, func)$/;"	f	unknown:M
+ensure_dir	lua/nightfox/util/init.lua	/^function M.ensure_dir(path)$/;"	f	unknown:M
+execute	lua/nightfox/interactive.lua	/^function M.execute()$/;"	f	unknown:M
+execute	misc/benchmarks/01-nvim-viml-compiled.lua	/^  local function execute(modname)$/;"	f
+exists	lua/nightfox/util/init.lua	/^function M.exists(path)$/;"	f	unknown:M
+extragen	Makefile	/^extragen:$/;"	t
+f	lua/nightfox/lib/color.lua	/^  local function f(n)$/;"	f
+filter	lua/nightfox/lib/collect.lua	/^function M.filter(tbl, func)$/;"	f	unknown:M
+flush	lua/nightfox/lib/deprication.lua	/^function M.flush()$/;"	f	unknown:M
+foreground	extra/dawnfox/nightfox_windows_terminal.json	/^    "foreground" : "#575279",$/;"	s
+foreground	extra/dayfox/nightfox_windows_terminal.json	/^    "foreground" : "#1d344f",$/;"	s
+foreground	extra/duskfox/nightfox_windows_terminal.json	/^    "foreground" : "#e0def4",$/;"	s
+foreground	extra/nightfox/nightfox_windows_terminal.json	/^    "foreground" : "#cdcecf",$/;"	s
+foreground	extra/nordfox/nightfox_windows_terminal.json	/^    "foreground" : "#cdcecf",$/;"	s
+foreground	extra/terafox/nightfox_windows_terminal.json	/^    "foreground" : "#e6eaea",$/;"	s
+from	lua/nightfox/group.lua	/^function M.from(spec)$/;"	f	unknown:M
+from_hex	lua/nightfox/lib/color.lua	/^function Color.from_hex(c)$/;"	f	unknown:Color
+from_hsl	lua/nightfox/lib/color.lua	/^function Color.from_hsl(h, s, l, a)$/;"	f	unknown:Color
+from_hsv	lua/nightfox/lib/color.lua	/^function Color.from_hsv(h, s, v, a)$/;"	f	unknown:Color
+from_rgba	lua/nightfox/lib/color.lua	/^function Color.from_rgba(r, g, b, a)$/;"	f	unknown:Color
+g:lightline#colorscheme#dawnfox#palette	autoload/lightline/colorscheme/dawnfox.vim	/^let g:lightline#colorscheme#dawnfox#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#dayfox#palette	autoload/lightline/colorscheme/dayfox.vim	/^let g:lightline#colorscheme#dayfox#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#duskfox#palette	autoload/lightline/colorscheme/duskfox.vim	/^let g:lightline#colorscheme#duskfox#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#nightfox#palette	autoload/lightline/colorscheme/nightfox.vim	/^let g:lightline#colorscheme#nightfox#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#nordfox#palette	autoload/lightline/colorscheme/nordfox.vim	/^let g:lightline#colorscheme#nordfox#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:lightline#colorscheme#terafox#palette	autoload/lightline/colorscheme/terafox.vim	/^let g:lightline#colorscheme#terafox#palette = lightline#colorscheme#fill(s:p)$/;"	v
+g:loaded_nightfox	plugin/nightfox.vim	/^let g:loaded_nightfox = 1$/;"	v
+gen_nvim_highlight_block	lua/nightfox/lib/compile.lua	/^local function gen_nvim_highlight_block(lines, spec)$/;"	f
+gen_set_info_block	lua/nightfox/lib/compile.lua	/^local function gen_set_info_block(meta)$/;"	f
+gen_terminal_func	lua/nightfox/lib/compile.lua	/^local function gen_terminal_func(spec)$/;"	f
+gen_viml_highlight_block	lua/nightfox/lib/compile.lua	/^local function gen_viml_highlight_block(lines, spec)$/;"	f
+generate	lua/nightfox/extra/alacritty.lua	/^function M.generate(spec)$/;"	f	unknown:M
+generate	lua/nightfox/extra/fish.lua	/^function M.generate(spec)$/;"	f	unknown:M
+generate	lua/nightfox/extra/iterm.lua	/^function M.generate(spec)$/;"	f	unknown:M
+generate	lua/nightfox/extra/kitty.lua	/^function M.generate(spec)$/;"	f	unknown:M
+generate	lua/nightfox/extra/konsole.lua	/^function M.generate(spec)$/;"	f	unknown:M
+generate	lua/nightfox/extra/tmux.lua	/^function M.generate(spec)$/;"	f	unknown:M
+generate	lua/nightfox/extra/wezterm.lua	/^function M.generate(spec)$/;"	f	unknown:M
+generate	lua/nightfox/extra/windows_terminal.lua	/^function M.generate(spec)$/;"	f	unknown:M
+generate	lua/nightfox/extra/xresources.lua	/^function M.generate(spec)$/;"	f	unknown:M
+generate	lua/nightfox/util/lightline.lua	/^function M.generate(name)$/;"	f	unknown:M
+generate_mode	lua/lualine/themes/dawnfox.lua	/^local function generate_mode(color, amount)$/;"	f
+generate_mode	lua/lualine/themes/dayfox.lua	/^local function generate_mode(color, amount)$/;"	f
+generate_mode	lua/lualine/themes/duskfox.lua	/^local function generate_mode(color, amount)$/;"	f
+generate_mode	lua/lualine/themes/nightfox.lua	/^local function generate_mode(color, amount)$/;"	f
+generate_mode	lua/lualine/themes/nordfox.lua	/^local function generate_mode(color, amount)$/;"	f
+generate_mode	lua/lualine/themes/terafox.lua	/^local function generate_mode(color, amount)$/;"	f
+generate_mode	lua/nightfox/util/lightline.lua	/^  local function generate_mode(color, amount)$/;"	f
+generate_spec	lua/nightfox/palette/aurafox.lua	/^local function generate_spec(pal)$/;"	f
+generate_spec	lua/nightfox/palette/dawnfox.lua	/^local function generate_spec(pal)$/;"	f
+generate_spec	lua/nightfox/palette/dayfox.lua	/^local function generate_spec(pal)$/;"	f
+generate_spec	lua/nightfox/palette/duskfox.lua	/^local function generate_spec(pal)$/;"	f
+generate_spec	lua/nightfox/palette/nightfox.lua	/^local function generate_spec(pal)$/;"	f
+generate_spec	lua/nightfox/palette/nordfox.lua	/^local function generate_spec(pal)$/;"	f
+generate_spec	lua/nightfox/palette/terafox.lua	/^local function generate_spec(pal)$/;"	f
+get	lua/nightfox/group/editor.lua	/^function M.get(spec, config)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/aerial.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/barbar.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/cmp.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/dap_ui.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/dashboard.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/diagnostic.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/fern.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/fidget.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/gitgutter.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/gitsigns.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/glyph_palette.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/hop.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/illuminate.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/lightspeed.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/lsp_saga.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/lsp_trouble.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/modes.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/native_lsp.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/neogit.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/neotree.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/notify.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/nvimtree.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/pounce.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/sneak.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/symbol_outline.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/telescope.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/treesitter.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/tsrainbow.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/modules/whichkey.lua	/^function M.get(spec, config, opts)$/;"	f	unknown:M
+get	lua/nightfox/group/syntax.lua	/^function M.get(spec, config)$/;"	f	unknown:M
+get_filetype	lua/nightfox/interactive.lua	/^local function get_filetype()$/;"	f
+get_path	lua/nightfox/util/template.lua	/^local function get_path(t, path)$/;"	f
+get_separator	lua/nightfox/util/init.lua	/^function M.get_separator()$/;"	f	unknown:M
+green	extra/dawnfox/nightfox_windows_terminal.json	/^    "green" : "#618774",$/;"	s
+green	extra/dayfox/nightfox_windows_terminal.json	/^    "green" : "#618774",$/;"	s
+green	extra/duskfox/nightfox_windows_terminal.json	/^    "green" : "#a3be8c",$/;"	s
+green	extra/nightfox/nightfox_windows_terminal.json	/^    "green" : "#81b29a",$/;"	s
+green	extra/nordfox/nightfox_windows_terminal.json	/^    "green" : "#a3be8c",$/;"	s
+green	extra/terafox/nightfox_windows_terminal.json	/^    "green" : "#7aa4a1",$/;"	s
+groups	lua/nightfox/init.lua	/^function override.groups(groups)$/;"	f	unknown:override
+harsh	lua/nightfox/lib/shade.lua	/^function Shade:harsh()$/;"	f	unknown:Shade
+init	lua/nightfox/init.lua	/^function M.init(opts)$/;"	f	unknown:M
+init	lua/nightfox/lib/color.lua	/^function Color.init(r, g, b, a)$/;"	f	unknown:Color
+inner_dump	lua/nightfox/util/lightline.lua	/^local function inner_dump(obj)$/;"	f
+inspect	lua/nightfox/lib/compile.lua	/^local function inspect(t)$/;"	f
+inverse {table}	usage.md	/^#### inverse {table}$/;"	t	section:Option
+join	minimal_init.lua	/^local function join(...)$/;"	f
+join_paths	lua/nightfox/util/init.lua	/^function M.join_paths(...)$/;"	f	unknown:M
+lighten	lua/nightfox/lib/color.lua	/^function Color:lighten(v)$/;"	f	unknown:Color
+load	lua/nightfox/group.lua	/^function M.load(name)$/;"	f	unknown:M
+load	lua/nightfox/init.lua	/^function M.load()$/;"	f	unknown:M
+load	lua/nightfox/main.lua	/^function M.load(opts)$/;"	f	unknown:M
+load	lua/nightfox/palette.lua	/^function M.load(name)$/;"	f	unknown:M
+load	lua/nightfox/spec.lua	/^function M.load(name)$/;"	f	unknown:M
+load_config	minimal_init.lua	/^_G.load_config = function()$/;"	f	unknown:_G
+load_plugins	minimal_init.lua	/^local function load_plugins()$/;"	f
+map	lua/nightfox/lib/collect.lua	/^function M.map(tbl, f)$/;"	f	unknown:M
+minimal	Makefile	/^minimal:$/;"	t
+modules {table}	usage.md	/^#### modules {table}$/;"	t	section:Option
+modules.diagnostic	usage.md	/^#### modules.diagnostic$/;"	t	subsection:Module""Extended modules
+name	extra/dawnfox/nightfox_windows_terminal.json	/^    "name" : "dawnfox",$/;"	s
+name	extra/dayfox/nightfox_windows_terminal.json	/^    "name" : "dayfox",$/;"	s
+name	extra/duskfox/nightfox_windows_terminal.json	/^    "name" : "duskfox",$/;"	s
+name	extra/nightfox/nightfox_windows_terminal.json	/^    "name" : "nightfox",$/;"	s
+name	extra/nordfox/nightfox_windows_terminal.json	/^    "name" : "nordfox",$/;"	s
+name	extra/terafox/nightfox_windows_terminal.json	/^    "name" : "terafox",$/;"	s
+new	lua/nightfox/lib/color.lua	/^function Color.new(opts)$/;"	f	unknown:Color
+new	lua/nightfox/lib/shade.lua	/^function Shade.new(base, bright, dim, light)$/;"	f	unknown:Shade
+nvim_hl	lua/nightfox/lib/highlight.lua	/^local function nvim_hl(highlights)$/;"	f
+override	lua/nightfox/group.lua	/^local function override(groups, spec, ovr)$/;"	f
+override	lua/nightfox/palette.lua	/^local function override(color, ovr)$/;"	f
+override	lua/nightfox/spec.lua	/^local function override(spec, palette, ovr)$/;"	f
+palettes	lua/nightfox/init.lua	/^function override.palettes(palettes)$/;"	f	unknown:override
+pandocdir	Makefile	/^pandocdir = misc\/panvimdoc$/;"	m
+pandocrepo	Makefile	/^pandocrepo = https:\/\/github.com\/kdheepak\/panvimdoc$/;"	m
+parse	lua/nightfox/util/template.lua	/^function M.parse(template, spec)$/;"	f	unknown:M
+parse_string	lua/nightfox/util/template.lua	/^local function parse_string(str, spec)$/;"	f
+parse_style	lua/nightfox/lib/highlight.lua	/^local function parse_style(style)$/;"	f
+parse_template_str	lua/nightfox/util/template.lua	/^function M.parse_template_str(template, spec)$/;"	f	unknown:M
+process	misc/benchmarks/01-nvim-viml-compiled.lua	/^local function process(iterations)$/;"	f
+purple	extra/dawnfox/nightfox_windows_terminal.json	/^    "purple" : "#907aa9",$/;"	s
+purple	extra/dayfox/nightfox_windows_terminal.json	/^    "purple" : "#8e6f98",$/;"	s
+purple	extra/duskfox/nightfox_windows_terminal.json	/^    "purple" : "#c4a7e7",$/;"	s
+purple	extra/nightfox/nightfox_windows_terminal.json	/^    "purple" : "#9d79d6",$/;"	s
+purple	extra/nordfox/nightfox_windows_terminal.json	/^    "purple" : "#b48ead",$/;"	s
+purple	extra/terafox/nightfox_windows_terminal.json	/^    "purple" : "#ad5c7c",$/;"	s
+red	extra/dawnfox/nightfox_windows_terminal.json	/^    "red" : "#b4637a",$/;"	s
+red	extra/dayfox/nightfox_windows_terminal.json	/^    "red" : "#b95d76",$/;"	s
+red	extra/duskfox/nightfox_windows_terminal.json	/^    "red" : "#eb6f92",$/;"	s
+red	extra/nightfox/nightfox_windows_terminal.json	/^    "red" : "#c94f6d",$/;"	s
+red	extra/nordfox/nightfox_windows_terminal.json	/^    "red" : "#bf616a",$/;"	s
+red	extra/terafox/nightfox_windows_terminal.json	/^    "red" : "#e85c51",$/;"	s
+reload	lua/nightfox/util/reload.lua	/^local function reload()$/;"	f
+rep	misc/benchmarks/01-nvim-viml-compiled.lua	/^local function rep(n, char)$/;"	f
+reset	lua/nightfox/config.lua	/^function M.reset()$/;"	f	unknown:M
+reset	lua/nightfox/init.lua	/^function M.reset()$/;"	f	unknown:M
+reset	lua/nightfox/override.lua	/^local function reset()$/;"	f
+root_dir	Makefile	/^root_dir := $(shell dirname $(realpath $(firstword $(MAKEFILE_LIST))))$/;"	m
+rotate	lua/nightfox/lib/color.lua	/^function Color:rotate(v)$/;"	f	unknown:Color
+round	lua/nightfox/util/init.lua	/^function M.round(x)$/;"	f	unknown:M
+s:p	autoload/lightline/colorscheme/dawnfox.vim	/^  let s:p = eval(s:palette_str)$/;"	v
+s:p	autoload/lightline/colorscheme/dawnfox.vim	/^  let s:p = v:lua.require('nightfox.util.lightline').generate('dawnfox')$/;"	v
+s:p	autoload/lightline/colorscheme/dayfox.vim	/^  let s:p = eval(s:palette_str)$/;"	v
+s:p	autoload/lightline/colorscheme/dayfox.vim	/^  let s:p = v:lua.require('nightfox.util.lightline').generate('dayfox')$/;"	v
+s:p	autoload/lightline/colorscheme/duskfox.vim	/^  let s:p = eval(s:palette_str)$/;"	v
+s:p	autoload/lightline/colorscheme/duskfox.vim	/^  let s:p = v:lua.require('nightfox.util.lightline').generate('duskfox')$/;"	v
+s:p	autoload/lightline/colorscheme/nightfox.vim	/^  let s:p = eval(s:palette_str)$/;"	v
+s:p	autoload/lightline/colorscheme/nightfox.vim	/^  let s:p = v:lua.require('nightfox.util.lightline').generate('nightfox')$/;"	v
+s:p	autoload/lightline/colorscheme/nordfox.vim	/^  let s:p = eval(s:palette_str)$/;"	v
+s:p	autoload/lightline/colorscheme/nordfox.vim	/^  let s:p = v:lua.require('nightfox.util.lightline').generate('nordfox')$/;"	v
+s:p	autoload/lightline/colorscheme/terafox.vim	/^  let s:p = eval(s:palette_str)$/;"	v
+s:p	autoload/lightline/colorscheme/terafox.vim	/^  let s:p = v:lua.require('nightfox.util.lightline').generate('terafox')$/;"	v
+s:palette_str	autoload/lightline/colorscheme/dawnfox.vim	/^  let s:palette_str = luaeval('nightfox_vim')$/;"	v
+s:palette_str	autoload/lightline/colorscheme/dayfox.vim	/^  let s:palette_str = luaeval('nightfox_vim')$/;"	v
+s:palette_str	autoload/lightline/colorscheme/duskfox.vim	/^  let s:palette_str = luaeval('nightfox_vim')$/;"	v
+s:palette_str	autoload/lightline/colorscheme/nightfox.vim	/^  let s:palette_str = luaeval('nightfox_vim')$/;"	v
+s:palette_str	autoload/lightline/colorscheme/nordfox.vim	/^  let s:palette_str = luaeval('nightfox_vim')$/;"	v
+s:palette_str	autoload/lightline/colorscheme/terafox.vim	/^  let s:palette_str = luaeval('nightfox_vim')$/;"	v
+saturate	lua/nightfox/lib/color.lua	/^function Color:saturate(v)$/;"	f	unknown:Color
+selectionBackground	extra/dawnfox/nightfox_windows_terminal.json	/^    "selectionBackground": "#d0d8d8",$/;"	s
+selectionBackground	extra/dayfox/nightfox_windows_terminal.json	/^    "selectionBackground": "#ced5de",$/;"	s
+selectionBackground	extra/duskfox/nightfox_windows_terminal.json	/^    "selectionBackground": "#433c59",$/;"	s
+selectionBackground	extra/nightfox/nightfox_windows_terminal.json	/^    "selectionBackground": "#2b3b51",$/;"	s
+selectionBackground	extra/nordfox/nightfox_windows_terminal.json	/^    "selectionBackground": "#3e4a5b",$/;"	s
+selectionBackground	extra/terafox/nightfox_windows_terminal.json	/^    "selectionBackground": "#293e40",$/;"	s
+set_fox	lua/nightfox/config.lua	/^function M.set_fox(name)$/;"	f	unknown:M
+set_info	lua/nightfox/main.lua	/^local function set_info(spec)$/;"	f
+set_options	lua/nightfox/config.lua	/^function M.set_options(opts)$/;"	f	unknown:M
+set_terminal	lua/nightfox/lib/compile.lua	/^  table.insert(lines, "local function set_terminal()")$/;"	f
+set_terminal_colors	lua/nightfox/main.lua	/^local function set_terminal_colors(spec)$/;"	f
+setup	lua/nightfox/init.lua	/^function M.setup(opts)$/;"	f	unknown:M
+shade	lua/nightfox/lib/color.lua	/^function Color:shade(f)$/;"	f	unknown:Color
+should_link	lua/nightfox/lib/compile.lua	/^local function should_link(link)$/;"	f
+should_link	lua/nightfox/lib/highlight.lua	/^local function should_link(link)$/;"	f
+spec.diag	usage.md	/^#### spec.diag$/;"	t	section:Spec
+spec.diag_bg	usage.md	/^#### spec.diag_bg$/;"	t	section:Spec
+spec.diff	usage.md	/^#### spec.diff$/;"	t	section:Spec
+spec.git	usage.md	/^#### spec.git$/;"	t	section:Spec
+spec.syntax	usage.md	/^#### spec.syntax$/;"	t	section:Spec
+specs	lua/nightfox/init.lua	/^function override.specs(specs)$/;"	f	unknown:override
+status	lua/nightfox/init.lua	/^function M.status()$/;"	f	unknown:M
+status	lua/nightfox/lib/compile.lua	/^function M.status()$/;"	f	unknown:M
+styles {table}	usage.md	/^#### styles {table}$/;"	t	section:Option
+subtle	lua/nightfox/lib/shade.lua	/^function Shade:subtle()$/;"	f	unknown:Shade
+terminal_colors {bool}	usage.md	/^#### terminal_colors {bool}$/;"	t	section:Option
+to_css	lua/nightfox/lib/color.lua	/^function Color:to_css(with_alpha)$/;"	f	unknown:Color
+to_hex	lua/nightfox/lib/color.lua	/^function Color:to_hex(with_alpha)$/;"	f	unknown:Color
+to_hsl	lua/nightfox/lib/color.lua	/^function Color:to_hsl()$/;"	f	unknown:Color
+to_hsv	lua/nightfox/lib/color.lua	/^function Color:to_hsv()$/;"	f	unknown:Color
+to_rgba	lua/nightfox/lib/color.lua	/^function Color:to_rgba()$/;"	f	unknown:Color
+to_value	lua/nightfox/util/template.lua	/^local function to_value(value)$/;"	f
+transparent {bool}	usage.md	/^#### transparent {bool}$/;"	t	section:Option
+validate	lua/nightfox/lib/highlight.lua	/^local function validate(input)$/;"	f
+vim_cache_home	lua/nightfox/util/init.lua	/^local function vim_cache_home()$/;"	f
+viml_hl	lua/nightfox/lib/highlight.lua	/^local function viml_hl(highlights)$/;"	f
+white	extra/dawnfox/nightfox_windows_terminal.json	/^    "white" : "#e5e9f0",$/;"	s
+white	extra/dayfox/nightfox_windows_terminal.json	/^    "white" : "#cdd1d5",$/;"	s
+white	extra/duskfox/nightfox_windows_terminal.json	/^    "white" : "#e0def4",$/;"	s
+white	extra/nightfox/nightfox_windows_terminal.json	/^    "white" : "#dfdfe0",$/;"	s
+white	extra/nordfox/nightfox_windows_terminal.json	/^    "white" : "#e5e9f0",$/;"	s
+white	extra/terafox/nightfox_windows_terminal.json	/^    "white" : "#ebebeb",$/;"	s
+write	lua/nightfox/lib/deprication.lua	/^function M.write(...)$/;"	f	unknown:M
+write	misc/extra.lua	/^local function write(str, folder, filename)$/;"	f
+yellow	extra/dawnfox/nightfox_windows_terminal.json	/^    "yellow" : "#ea9d34",$/;"	s
+yellow	extra/dayfox/nightfox_windows_terminal.json	/^    "yellow" : "#ba793e",$/;"	s
+yellow	extra/duskfox/nightfox_windows_terminal.json	/^    "yellow" : "#f6c177",$/;"	s
+yellow	extra/nightfox/nightfox_windows_terminal.json	/^    "yellow" : "#dbc074",$/;"	s
+yellow	extra/nordfox/nightfox_windows_terminal.json	/^    "yellow" : "#ebcb8b",$/;"	s
+yellow	extra/terafox/nightfox_windows_terminal.json	/^    "yellow" : "#fda47f",$/;"	s
